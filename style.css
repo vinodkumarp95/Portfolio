@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Live Background Video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.5; /* Adjust to your preference */
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .tagline {
+    font-style: italic;
+}
+
+/* About Section */
+#about {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#about .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+    margin-bottom: 20px;
+}
+
+#about .bio h2 {
+    margin-top: 0;
+}
+
+/* Skills Section */
+#skills {
+    background: rgba(232, 245, 233, 0.9); /* Semi-transparent background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Resume Section */
+#resume {
+    background: rgba(232, 245, 233, 0.9); /* Semi-transparent background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#resume a {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: rgba(76, 175, 80, 0.9); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
